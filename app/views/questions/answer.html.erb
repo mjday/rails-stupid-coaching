@@ -1,0 +1,20 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+<!-- <p>Find me in app/views/questions/answer.html.erb</p> -->
+
+<div class="question" class="d-flex justify center">
+  <p><%= @question %></p>
+  <h3>-You</h3>
+
+</div>
+<div class="answer">
+  <p><%= @answer %></p>
+  <h3>-Your coach</h3>
+
+</div>
+<%= link_to "Ask a new question", ask_path, :class  => "fa fa-plus-circle"%>
+</div>
+
+
+
+
